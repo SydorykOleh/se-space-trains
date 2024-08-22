@@ -14,9 +14,14 @@ if settings.startup["space-cargo-wagon-capacity-setting"].value == "40 Slots (Va
   data.raw["cargo-wagon"]["space-cargo-wagon"].inventory_size = 40
 elseif settings.startup["space-cargo-wagon-capacity-setting"].value == "120 Slots (Extended)" then
   data.raw["cargo-wagon"]["space-cargo-wagon"].inventory_size = 120
+endelseif settings.startup["space-cargo-wagon-capacity-setting"].value == "100 Slots (Custom)" then
+  data.raw["cargo-wagon"]["space-cargo-wagon"].inventory_size = 100
 end
 if settings.startup["space-fluid-wagon-capacity-setting"].value == "25.000 (Vanilla)" then
   data.raw["fluid-wagon"]["space-fluid-wagon"].capacity = 25000
+end
+if settings.startup["space-fluid-wagon-capacity-setting"].value == "50.000 (Custom)" then
+  data.raw["fluid-wagon"]["space-fluid-wagon"].capacity = 50000
 end
 if settings.startup["space-battery-pack-energy-density-setting"].value == "100 MJ" then
   data.raw["assembling-machine"]["space-train-battery-charging-station"].energy_usage = "3.3MW"

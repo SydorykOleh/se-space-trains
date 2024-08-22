@@ -14,13 +14,13 @@ data:extend({{
   name = "space-fluid-wagon-capacity-setting",
   setting_type = "startup",
   default_value = "30.000 (Default)",
-  allowed_values = {"25.000 (Vanilla)", "30.000 (Default)"}
+  allowed_values = {"25.000 (Vanilla)", "30.000 (Default)", "50.000 (Custom)"}
 }, {
   type = "string-setting",
   name = "space-cargo-wagon-capacity-setting",
   setting_type = "startup",
   default_value = "50 Slots (Default)",
-  allowed_values = {"40 Slots (Vanilla)", "50 Slots (Default)", "120 Slots (Extended)"}
+  allowed_values = {"40 Slots (Vanilla)", "50 Slots (Default)", "120 Slots (Extended)", "100 Slots (Custom)"}
 }, {
   type = "string-setting",
   name = "space-locomotive-speed-setting",
